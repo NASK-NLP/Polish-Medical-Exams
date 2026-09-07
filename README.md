@@ -40,8 +40,8 @@ setting inside `evaluation_all_splits.py` / `evaluation_all_eng.py`:
 
 - `our_method` — direct instruction to return only the correct answer. Unlike
   `prev_method`, it does not embed a sample answer in the prompt. Instead it
-  relies on constrained generation whenever the backend supports it: (the token IDs
-  of the valid answer letters, e.g. A–E) plus a `.` stop token, so the model can
+  relies on constrained generation whenever the backend supports it: the token IDs
+  of the valid answer letters, e.g. A–E and a `.` stop token, so the model can
   only emit one of the allowed choices. This constrained path is used for most
   models; a few models that don't tolerate it cleanly (Bielik,
   and `MediPhi-Instruct` on the `multiple_choice` split) fall back to a short
