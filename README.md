@@ -1,6 +1,6 @@
 # Reassess-Polish-Medical-Exams
 [![arXiv](https://img.shields.io/badge/arXiv-2606.12250-b31b1b.svg)](https://arxiv.org/abs/2606.12250)
-[![HF Dataset](https://img.shields.io/badge/🤗%20Dataset-Reasses--Medical--Exams-yellow)](https://huggingface.co/datasets/NASK-PIB/Reassess-Polish-Medical-Exams)
+[![HF Dataset](https://img.shields.io/badge/🤗%20Dataset-Reassess--Polish--Medical--Exams-yellow)](https://huggingface.co/datasets/NASK-PIB/Reassess-Polish-Medical-Exams)
 
 Benchmark and evaluation toolkit for assessing large language models on Polish
 medical board exams. The project builds several evaluation splits from the
