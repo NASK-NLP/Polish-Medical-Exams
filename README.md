@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Polish-Medical-Exams
-=======
 # Reassess-Polish-Medical-Exams
 [![arXiv](https://img.shields.io/badge/arXiv-2606.12250-b31b1b.svg)](https://arxiv.org/abs/2606.12250)
 [![HF Dataset](https://img.shields.io/badge/🤗%20Dataset-Reassess--Polish--Medical--Exams-yellow)](https://huggingface.co/datasets/NASK-PIB/Reassess-Polish-Medical-Exams)
@@ -148,4 +145,3 @@ figures/           Composition plots per exam source
 | `outputs/model_outputs/`          | Raw model predictions per split (pickles)             |
 | `outputs/judge_consistent/`       | LLM-judge boolean verdicts + chain-of-thought         |
 | `outputs/results/`                | Aggregated accuracy tables (bias/nobias, per-year)   |
->>>>>>> cameraready
